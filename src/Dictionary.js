@@ -7,13 +7,14 @@ export default function Dictionary() {
     event.preventDefault();
     alert(`Searching for ${keyword} definition`);
   }
+
   function handleKeywordChange(event) {
-    console.log(event.target.value);
     setKeyword(event.target.value);
   }
+
   return (
     <div className="Dictionary">
-      <form onsubmit={search}>
+      <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
       </form>
     </div>
