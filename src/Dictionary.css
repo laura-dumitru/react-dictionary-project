@@ -1,3 +1,12 @@
 .app-footer {
   text-align: center;
 }
+
+body {
+  background-color: rgb(255, 203, 184);
+  text-align: center;
+}
+
+.App-header {
+  margin: 30px;
+}
