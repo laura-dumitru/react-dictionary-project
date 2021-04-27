@@ -7,10 +7,10 @@ export default function App() {
       <div className="container">
         <header className="App-header">What word are you looking for?</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Nature" />
         </main>
       </div>
-      <footer className="">
+      <footer className="App-footer">
         Coded by
         <a href="https://github.com/laura-dumitru/react-dictionary-project">
           {" "}

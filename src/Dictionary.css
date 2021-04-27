@@ -1,12 +1,30 @@
-.app-footer {
+.App-footer {
   text-align: center;
 }
-
 body {
-  background-color: rgb(255, 203, 184);
-  text-align: center;
+  background-color: #f6e5f5;
+}
+.Dictionary section {
+  background: #fbf4f9;
+  padding: 30px;
+  border-radius: 6px;
+
+  margin: 20px 0;
+}
+.Dictionary input {
+  width: 80%;
+  padding: 6px 10px;
+  color: rgb(83, 83, 83);
+  border: 1px solid #ddd;
+}
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 10px;
 }
 
 .App-header {
-  margin: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 40px;
+  font-weight: bold;
 }
