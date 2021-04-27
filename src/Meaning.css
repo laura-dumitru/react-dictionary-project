@@ -1,9 +1,8 @@
 .Meaning .definition {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  margin: 10px;
 }
 .Meaning .example {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 14px;
 }

@@ -1,11 +1,13 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import girl from "./img/girl.svg";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">What word are you looking for?</header>
+        <header className="App-header">Dictionary </header>
+        <img src={girl} className="girlPhoto" alt="" />
         <main>
           <Dictionary defaultKeyword="Nature" />
         </main>

@@ -40,7 +40,7 @@ export default function Dictionary(props) {
             <input type="search" onChange={handleKeywordChange} />
           </form>
           <div className="hint">
-            Suggested words: Yoga, Nutrition, Recipes, Sunset, Animals
+            Suggested words: Nature, Yoga, Nutrition, Sunset, Animals
           </div>
         </section>
         <Results results={results} />
