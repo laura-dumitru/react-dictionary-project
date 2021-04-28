@@ -9,12 +9,13 @@
   color: pink;
 }
 .App {
-  max-width: 960px;
+  max-width: 600px;
   margin: 0 auto;
 }
 body {
   background-color: #f6e5f5;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 .Dictionary section {
   background: #fbf4f9;
@@ -37,11 +38,11 @@ body {
 .App-header {
   text-align: center;
   font-size: 30px;
-  margin: 60px;
+  margin: 40px;
   font-weight: bold;
 }
 .girlPhoto {
+  display: block;
   max-width: 50%;
   margin: 0 auto;
-  margin-left: 200px;
 }
