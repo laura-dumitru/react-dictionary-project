@@ -1,31 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-.App-footer {
-  text-align: center;
-}
-.App-footer a {
-  color: black;
-  text-decoration: none;
-}
-.App-footer a:hover {
-  color: #a4a4a7;
-}
-.App {
-  max-width: 640px;
-  margin: 0 auto;
-}
-body {
-  background-color: #e2e2ec;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-}
 .Dictionary section {
   background: #faeff8;
   padding: 25px;
   border-radius: 20px;
   margin: 30px 0;
 }
+
 .Dictionary input {
-  width: 80%;
+  width: 90%;
   padding: 6px 10px;
   color: rgb(83, 83, 83);
   border: 1px solid #ddd;
@@ -34,16 +15,19 @@ body {
 .Dictionary .hint {
   font-size: 12px;
   margin-top: 10px;
-}
-
-.App-header {
-  text-align: center;
-  font-size: 30px;
-  margin: 40px;
-  font-weight: bold;
+  margin-left: 6px;
 }
 .girlPhoto {
   display: block;
   max-width: 50%;
   margin: 0 auto;
+}
+button {
+  background-color: #faeff8;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 20px;
+  outline: none;
+  margin-left: 2px;
+  border-radius: 10px;
 }

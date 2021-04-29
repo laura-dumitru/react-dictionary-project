@@ -1,9 +1,9 @@
 .Meaning .definition {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 .Meaning .example {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   /*text-transform: capitalize;*/
 }

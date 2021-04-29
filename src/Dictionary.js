@@ -3,11 +3,14 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
+
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
+
+  let photosNumber = 9; //4
 
   function handleResponse(response) {
     setResults(response.data[0]);
@@ -24,7 +27,7 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleResponse);
     let pexelsApiKey =
       "563492ad6f91700001000001aae180ff4b2e4f84baebf75c4ca2f4ba";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=${photosNumber}`;
     axios
       .get(pexelsApiUrl, {
         headers: { Authorization: pexelsApiKey },
@@ -50,10 +53,16 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} />
+            <input
+              type="search"
+              autoFocus={true}
+              placeholder="Search"
+              onChange={handleKeywordChange}
+            />
+            <button type="submit">🔍</button>
           </form>
           <div className="hint">
-            Suggested words: Nature, Yoga, Nutrition, Sunset, Animals
+            Suggested words: Nature, Yoga, Nutrition, Sunset
           </div>
         </section>
         <Results results={results} />
