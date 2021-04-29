@@ -5,4 +5,5 @@
 .Meaning .example {
   margin-top: 10px;
   font-size: 12px;
+  /*text-transform: capitalize;*/
 }

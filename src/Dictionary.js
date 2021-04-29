@@ -10,10 +10,10 @@ export default function Dictionary(props) {
   let [photos, setPhotos] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
     setResults(response.data[0]);
   }
   function handlePexelsResponse(response) {
+    console.log(response);
     setPhotos(response.data.photos);
   }
 
@@ -24,10 +24,10 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleResponse);
     let pexelsApiKey =
       "563492ad6f91700001000001aae180ff4b2e4f84baebf75c4ca2f4ba";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     axios
       .get(pexelsApiUrl, {
-        headers: { Authorization: `Bearer${pexelsApiKey}` },
+        headers: { Authorization: pexelsApiKey },
       })
       .then(handlePexelsResponse);
   }

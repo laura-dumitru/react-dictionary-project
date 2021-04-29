@@ -6,10 +6,12 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary </header>
+        <header className="App-header">
+          <h1>Dictionary</h1>
+        </header>
         <img src={girl} className="girlPhoto" alt="" />
         <main>
-          <Dictionary defaultKeyword="Nature" />
+          <Dictionary defaultKeyword="Dog" />
         </main>
       </div>
       <footer className="App-footer">

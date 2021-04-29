@@ -4,12 +4,13 @@
 }
 .App-footer a {
   color: black;
+  text-decoration: none;
 }
 .App-footer a:hover {
-  color: pink;
+  color: #a4a4a7;
 }
 .App {
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
 }
 body {
