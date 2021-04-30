@@ -12,12 +12,11 @@ input {
 
 .App {
   max-width: 640px;
-  margin: 0 auto;
+  margin: 0 16px;
 }
 
 .App-header {
   text-align: center;
-  font-size: 30px;
   margin: 40px;
   font-weight: bold;
 }
@@ -33,5 +32,15 @@ input {
 .App-footer a:hover {
   color: #a4a4a7;
 }
-@media {
+
+@media (max-width: 480px) {
+  .App {
+    max-width: 640px;
+  }
+  .App-header {
+    margin-top: 20px;
+  }
+  body {
+    font-size: 12px;
+  }
 }

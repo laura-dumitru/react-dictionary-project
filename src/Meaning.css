@@ -7,3 +7,11 @@
   font-size: 14px;
   /*text-transform: capitalize;*/
 }
+.Meaning .example:first-letter {
+  text-transform: uppercase;
+}
+@media (max-width: 480px) {
+  .Meaning .definition .Meaning .example {
+    font-size: 12px;
+  }
+}

@@ -31,3 +31,15 @@ button {
   margin-left: 2px;
   border-radius: 10px;
 }
+
+@media (max-width: 480px) {
+  .Dictionary input {
+    width: 84%;
+  }
+  button {
+    font-size: 16px;
+  }
+  .girlPhoto {
+    max-width: 50%;
+  }
+}
