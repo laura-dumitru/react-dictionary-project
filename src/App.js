@@ -11,7 +11,7 @@ export default function App() {
         </header>
         <img src={girl} className="girlPhoto" alt="" />
         <main>
-          <Dictionary defaultKeyword="Dog" />
+          <Dictionary defaultKeyword="Flowers" />
         </main>
       </div>
       <footer className="App-footer">
