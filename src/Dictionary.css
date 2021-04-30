@@ -11,6 +11,7 @@
   color: rgb(83, 83, 83);
   border: 1px solid #ddd;
   border-radius: 20px;
+  box-shadow: none;
 }
 .Dictionary .hint {
   font-size: 12px;
@@ -22,6 +23,7 @@
   max-width: 50%;
   margin: 0 auto;
 }
+
 button {
   background-color: #faeff8;
   border: none;
