@@ -19,3 +19,8 @@
 .Phonetic .text {
   font-weight: bold;
 }
+@media (max-width: 480px) {
+  .Phonetic {
+    margin-bottom: 16px;
+  }
+}
