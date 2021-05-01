@@ -1,3 +1,13 @@
+button {
+  background-color: #faeff8;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 20px;
+  outline: none;
+  margin-left: 2px;
+  border-radius: 10px;
+}
+
 .Dictionary section {
   background: #faeff8;
   padding: 25px;
@@ -22,16 +32,6 @@
   display: block;
   max-width: 50%;
   margin: 0 auto;
-}
-
-button {
-  background-color: #faeff8;
-  border: none;
-  padding: 6px 10px;
-  border-radius: 20px;
-  outline: none;
-  margin-left: 2px;
-  border-radius: 10px;
 }
 
 @media (max-width: 480px) {

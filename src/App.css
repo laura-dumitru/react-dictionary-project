@@ -9,6 +9,10 @@ body {
 input {
   outline: none;
 }
+input,
+select {
+  font-size: 100%;
+}
 
 .App {
   max-width: 640px;
