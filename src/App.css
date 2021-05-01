@@ -9,10 +9,6 @@ body {
 input {
   outline: none;
 }
-input,
-select {
-  font-size: 100%;
-}
 
 .App {
   max-width: 640px;
@@ -47,5 +43,9 @@ select {
   }
   body {
     font-size: 12px;
+  }
+  input,
+  select {
+    font-size: 1em;
   }
 }
