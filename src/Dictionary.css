@@ -1,5 +1,5 @@
 button {
-  background-color: #faeff8;
+  background-color: #f6f6f6;
   border: none;
   padding: 6px 10px;
   border-radius: 20px;
@@ -9,7 +9,7 @@ button {
 }
 
 .Dictionary section {
-  background: #faeff8;
+  background: #f6f6f6;
   padding: 25px;
   border-radius: 20px;
   margin: 30px 0;
@@ -19,7 +19,7 @@ button {
   width: 90%;
   padding: 6px 10px;
   color: rgb(83, 83, 83);
-  border: 1px solid #ddd;
+  border: 1px solid#f6f6f6;
   border-radius: 20px;
   box-shadow: none;
 }
