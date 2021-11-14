@@ -11,11 +11,9 @@ body {
 input {
   outline: none;
 }
-
 h1 {
   font-family: "Poppins", sans-serif;
 }
-
 .App {
   max-width: 640px;
   margin: 0 auto;
@@ -33,6 +31,7 @@ h1 {
   margin-bottom: 32px;
 }
 .App-footer a {
+  font-family: "Poppins", sans-serif;
   color: black;
   text-decoration: none;
 }

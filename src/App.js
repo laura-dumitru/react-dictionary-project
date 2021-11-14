@@ -1,6 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import girl from "./img/girl.svg";
+import book from "./img/book.png";
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
         <header className="App-header">
           <h1>Dictionary</h1>
         </header>
-        <img src={girl} className="girlPhoto" alt="" />
+        <img src={book} className="bookPhoto" alt="" />
         <main>
           <Dictionary defaultKeyword="Flowers" />
         </main>
