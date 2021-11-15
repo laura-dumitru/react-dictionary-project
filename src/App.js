@@ -16,7 +16,11 @@ export default function App() {
       </div>
       <footer className="App-footer">
         Coded by
-        <a href="https://github.com/laura-dumitru/react-dictionary-project">
+        <a
+          href="https://github.com/laura-dumitru/react-dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           Laura{" "}
         </a>
