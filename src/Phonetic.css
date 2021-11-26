@@ -14,8 +14,7 @@
   margin-right: 12px;
 }
 .Phonetic a:hover {
-  background: white;
-  color: #a4a4a7;
+  background: #ffe2e2;
 }
 .Phonetic .text {
   font-weight: bold;
