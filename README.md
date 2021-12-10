@@ -1,3 +1,16 @@
+# React Dictionary
+
+A dictionary project built with **React** which displays the word definitions with examples, followed by a range of images. It contains a uniquely designed book icon. This project was made as part of a SheCodes course and uses an API from [Free Dictionary API](https://dictionaryapi.dev).  
+Technologies learned: **HTML, CSS, JavaScript, React, API**.   
+How to use:
+* `npm start` in terminal
+* Input a word in the *search bar*
+* Click the _magnifying glass_
+* Click the _Listen to word_ button to listen to the word pronunciation
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
